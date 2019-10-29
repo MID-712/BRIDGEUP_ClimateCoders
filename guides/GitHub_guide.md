@@ -6,6 +6,7 @@ Tips:
 * Use **git status** before you **push** to check if all your commits were recognized by **git**
 * Check out our group cheat sheet for a quick refresher on **git** commands
 * If you forget to **push** any changes from an earlier class, remember to do so before you **pull** any updates from my repository.
+* Write descriptive commit messages ([tips](https://medium.com/@steveamaza/how-to-write-a-proper-git-commit-message-e028865e5791))
 
 
 ## Setting up Github!

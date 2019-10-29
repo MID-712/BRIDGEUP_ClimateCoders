@@ -16,7 +16,8 @@ Welcome to the Github repository of the Climate Coders, a BridgeUP STEM 2019-20 
 | :----: | :----: |------------|----------|
 |**Unit 1**|*Introduction to oceans and climate*|
 |October 10, 2019 (Thursday)| Welcome! |1. Icebreaker </br> 2. What do we know about oceans and climate? </br> 3. GitHub practice </br> 4. Exit ticket| |
-|October 15, 2019 (Tuesday)| Setting up |1. Community guidelines </br> 2. [Github practice (continued)](./guides) </br> 3. [Introduction to time formats](./191015) </br> 4. Exit ticket||
-|October 17, 2019 (Thursday)| Time scales and formats |1. "About me" presentations </br> 2. How do we measure time? </br> 3. [Introduction to time formats (contd)](./191015) </br> 4. Questions for Nathalie </br> 5. Exit ticket |[Nathalie's website](https://earthobservatory.sg/research-group/marine-geochemistry-nathalie-goodkin)|
-|October 22, 2019 (Tuesday)| Sea surface temperature |1. "About me" presentations </br> 2. Sea surface temperature </br> 3. Introduction to the netCDF4 module </br> 4. Exit ticket | |
-|October 24, 2019 (Thursday)| Meet Nathalie! | | |
+|October 15, 2019 (Tuesday)| Setting up |1. Community guidelines </br> 2. [Github practice (continued)](./guides) </br> 3. [Introduction to time formats](./191015_timeformats) </br> 4. Exit ticket||
+|October 17, 2019 (Thursday)| Time scales and formats |1. "About me" presentations </br> 2. How do we measure time? </br> 3. [Introduction to time formats (contd)](./191015_timeformats/) </br> 4. Exit ticket ||
+|October 22, 2019 (Tuesday)| Sea surface temperature |1. "About me" presentations </br> 2. [Sea surface temperature](./191022_seatemperature) </br> 3. Questions for Nathalie </br> 4. Exit ticket |[Nathalie's website](https://earthobservatory.sg/research-group/marine-geochemistry-nathalie-goodkin)|
+|October 24, 2019 (Thursday)| Meet Nathalie! | [Questions for Nathlie](https://docs.google.com/document/d/1dPK4-zcwAgWIJMA3fx1Phpnth-oQTlRpn3eyBRO_SeQ/edit?usp=sharing)| |
+|October 29, 2019 (Tuesday)| Functions review | 1. Oceans trivia </br> 2. [Functions review](./191029_functions) </br> 3. Temperature in the deep ocean </br> 4. Exit ticket| |
