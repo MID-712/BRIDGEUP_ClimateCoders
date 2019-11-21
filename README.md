@@ -27,8 +27,14 @@ Welcome to the Github repository of the Climate Coders, a BridgeUP STEM 2019-20 
 |November 11, 2019 (Tuesday)| Introduction to our data files (cont) and ocean densities|1. Density experiment </br> 2. [Introduction to netcdf](./191031_intro2netcdf) </br> 3. Exit ticket | |
 |November 14, 2019 (Thursday)| Introduction to our data files (cont) |1. [Introduction to netcdf](./191031_intro2netcdf) </br> 2. Python absolute and relative paths </br> 3. Exit ticket | Cheers and Challenges: Sabrina|
 |November 19, 2019 (Tuesday)| Ocean currents and introduction to numpy arrays |1. Ocean currents </br> 2. [Introduction to numpy arrays](./191119_intro2numpyarrays) </br> 3. Exit ticket ||
-|November 21, 2019 (Thursday)| | | Cheers and Challenges: Sherlyn|
-|November 26, 2019 (Tuesday)| | |
-|November 28, 2019 (Thursday)| Thanksgiving :corn: | | |
-|December 3, 2019 (Tuesday)| Guest Speaker | | |
-|December 24, 2019 - January 2, 2019| Winter Recess | | |
+|November 21, 2019 (Thursday)| Coriolis effect and introduction to numpy arrays (contd)|1. Coriolis effect </br> 2. [Introduction to numpy arrays](./191119_intro2numpyarrays) </br> 3. Exit ticket | Cheers and Challenges: Sherlyn|
+|November 26, 2019 (Tuesday)| Unit 1 wrap-up| | |
+|November 28, 2019 (Thursday)| Thanksgiving :corn: | | | |
+|December 3, 2019 (Tuesday)| Guest Speaker | | | |
+|**Unit 2**|*Climate effects in South-East Asia*|
+|December 5, 2019 (Thursday)| Louise visiting! | | Cheers and Challenges: Darcie |
+|December 10, 2019 (Tuesday)| Meet Ryan! | | | |
+|December 12, 2019 (Thursday)| | | Cheers and Challenges: Mia |
+|December 17, 2019 (Tuesday)| | | |
+|December 19, 2019 (Thursday)| | | Cheers and Challenges: Natalie |
+|December 24, 2019 - January 2, 2019| Winter Recess | | | |
