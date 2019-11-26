@@ -10,6 +10,7 @@ Welcome to the Github repository of the Climate Coders, a BridgeUP STEM 2019-20 
 :tropical_fish: [Our research notebook](https://docs.google.com/document/d/1KRSZ3onChbzWEPLJNWV2pxmtsUpAtw6nMLl2e3bgJoU/edit) </br>
 :tropical_fish: [Our community guidelines](https://docs.google.com/document/d/168vNyEpoMV_wvTNALC6-66nGEJ-Yu1TO3Q_SWoqM0hc/edit?usp=sharing)
 
+
 ## Schedule
 
 | Date | Topic | Activities | Comments |
@@ -28,12 +29,12 @@ Welcome to the Github repository of the Climate Coders, a BridgeUP STEM 2019-20 
 |November 14, 2019 (Thursday)| Introduction to our data files (cont) |1. [Introduction to netcdf](./191031_intro2netcdf) </br> 2. Python absolute and relative paths </br> 3. Exit ticket | Cheers and Challenges: Sabrina|
 |November 19, 2019 (Tuesday)| Ocean currents and introduction to numpy arrays |1. Ocean currents </br> 2. [Introduction to numpy arrays](./191119_intro2numpyarrays) </br> 3. Exit ticket ||
 |November 21, 2019 (Thursday)| Coriolis effect and introduction to numpy arrays (contd)|1. Coriolis effect </br> 2. [Introduction to numpy arrays](./191119_intro2numpyarrays) </br> 3. Exit ticket | Cheers and Challenges: Sherlyn|
-|November 26, 2019 (Tuesday)| Unit 1 wrap-up| | |
+|November 26, 2019 (Tuesday)| Unit 1 wrap-up| 1. Unit 1 Review </br> 2. [SST Anomaly with SODA data](./191126_sstanomaly_SODA) </br> 3. [Unit feedback](https://docs.google.com/forms/d/e/1FAIpQLSeTj_ZiKHNOBmYlpiic3aYbVjKawWrZrQ2tsAZKBqLbPATTbA/viewform) | |
 |November 28, 2019 (Thursday)| Thanksgiving :corn: | | | |
 |December 3, 2019 (Tuesday)| Guest Speaker | | | |
 |**Unit 2**|*Climate effects in South-East Asia*|
 |December 5, 2019 (Thursday)| Louise visiting! | | Cheers and Challenges: Darcie |
-|December 10, 2019 (Tuesday)| Meet Ryan! | | | |
+|December 10, 2019 (Tuesday)| Meet Ryan! | |[Ryan's website](https://marine.rutgers.edu/main/ryan-glaubke) |
 |December 12, 2019 (Thursday)| | | Cheers and Challenges: Mia |
 |December 17, 2019 (Tuesday)| | | |
 |December 19, 2019 (Thursday)| | | Cheers and Challenges: Natalie |
