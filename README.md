@@ -36,6 +36,6 @@ Welcome to the Github repository of the Climate Coders, a BridgeUP STEM 2019-20 
 |December 5, 2019 (Thursday)| Louise visiting! | 1. Chat with Louise </br> 2. Brainstorming our next steps </br> 3. [Indexing with numpy arrays](./191205_intro2unit2) </br> 4. Exit ticket| Cheers and Challenges: Darcie |
 |December 10, 2019 (Tuesday)| Meet Ryan! | [Questions for Ryan](https://docs.google.com/document/d/1ENigK1hDCRUZSNgyiRJsHQrcPf2xQ1B2ODwB0b5ul7U/edit)|[Ryan's website](https://marine.rutgers.edu/main/ryan-glaubke) |
 |December 12, 2019 (Thursday)|SST Anomaly|1. Calculate SST anomaly </br> 2. [Indexing with numpy arrays](./191205_intro2unit2)</br> 3. Exit ticket| Cheers and Challenges: Mia |
-|December 17, 2019 (Tuesday)| | | |
-|December 19, 2019 (Thursday)| | | Cheers and Challenges: Natalie |
-|December 24, 2019 - January 2, 2019| Winter Recess | | | |
+|December 17, 2019 (Tuesday)| Contour plots| 1. [Contour plotting](./191217_contourplotting) </br> 2. [Writing our first Sublime script!](./191217_contourplotting) </br> 3. Exit ticket| |
+|December 19, 2019 (Thursday)| Writing our first script!| 1. [Contour plotting continued](./191217_contourplotting) </br> 2. [Introduction to Sublime](./191217_contourplotting) </br> 3. Debugging script </br> 4. Exit ticket| Cheers and Challenges: Sabrina |
+|December 24, 2019 - January 2, 2019| :snowflake: Winter Recess :snowflake:| | | |
