@@ -1,14 +1,14 @@
 #Import packages
 
 #Create functions
-def hello(name):
-	print('Hello',name)
+def divide(int1,int2):
+	answer = int2 / int1
+	print(answer) 
 
 #Main script
 def main():
 	
-	name = 'Beyonce'
-	hello(name)
+	divide(int1 = 12, int2 = 48)
 
 #Run script
 if __name__ == '__main__':
