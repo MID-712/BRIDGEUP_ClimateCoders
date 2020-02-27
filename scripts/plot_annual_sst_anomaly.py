@@ -10,20 +10,34 @@ import sst_anomaly_functions
 #Main script
 def main():
 
+<<<<<<< HEAD
 #navigates to our data folder	
 	dataPath = '/Users/brownscholar/Dropbox/BridgeUP_ClimateCoders/Data'
 	os.chdir(dataPath)
 	data = Dataset('compressed_soda3.12.2_mn_ocean_reg_2009.nc')
 #opens the file
 #set variables	
+=======
+	#Navigates to our data folder
+	dataPath = '/Users/hellenfellow/Dropbox (AMNH)/BridgeUP_ClimateCoders/Data'
+	os.chdir(dataPath)
+	data = Dataset('compressed_soda3.12.2_mn_ocean_reg_2017.nc')
+
+	# Setting variables
+>>>>>>> 6b5fa747cbdf77c3660bfa173fe4f7c49eb59627
 	lon = data.variables['xt_ocean'][:]
 	lat = data.variables['yt_ocean'][:]
 	time = data.variables['time'][:]
 	depth = data.variables['st_ocean'][:]
 	temp = data.variables['temp'][:]
 	salt = data.variables['salt'][:]
+<<<<<<< HEAD
 	
 #get all of the values for each variable via slicing	
+=======
+
+	#Slicing 
+>>>>>>> 6b5fa747cbdf77c3660bfa173fe4f7c49eb59627
 	condition_depth = depth <= 20
 #Corals don't grow past 20 meters
 	temp_sliced = temp[:,condition_depth,:,:]
@@ -33,11 +47,15 @@ def main():
 	lat_sliced = lat[lat_condition]
 	print(lat_sliced.shape)
 
+<<<<<<< HEAD
 	lon_condition = (lon >= 100) & (lon <= 150)
 	lon_sliced = lon[lon_condition]
 	print(lon_sliced.shape)
 
 #creates average temperature	
+=======
+	#Creates average temperature
+>>>>>>> 6b5fa747cbdf77c3660bfa173fe4f7c49eb59627
 	temp_mean = temp_sliced.mean()
 	#print (temp_mean)
 
@@ -66,6 +84,7 @@ def main():
 	#print(temp_mean)
 	#print(temp_sliced.shape)
 	
+<<<<<<< HEAD
 	# plt.figure()
 	# ax_f = plt.contourf(lon,lat,temp_anom_year_depth)
 	# ax = plt.contour(lon,lat,temp_anom_year_depth, colors = 'black')
@@ -83,6 +102,13 @@ def main():
 	plt.xlabel("Longitude", color='darkmagenta')
 	plt.ylabel("Latitude", color='darkmagenta')
 	plt.show()
+=======
+	#Calculate anomalies
+	temp_anom = temp[:,condition_depth,:,:] - temp_mean
+	#temp_anom = (12,2,330,720)
+	temp_anom_yr = temp_anom.mean(axis = 0)
+	print(temp_anom_yr.shape)
+>>>>>>> 6b5fa747cbdf77c3660bfa173fe4f7c49eb59627
 
 #Execute main script
 if __name__ == '__main__':

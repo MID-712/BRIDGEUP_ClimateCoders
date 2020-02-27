@@ -8,8 +8,8 @@ Welcome to the Github repository of the Climate Coders, a BridgeUP STEM 2019-20 
 :tropical_fish: [Guides and cheatsheets](./guides) </br>
 :tropical_fish: [Our cheat sheet](https://docs.google.com/document/d/1Vjw3jyR2vp0x1ndLKoTWM8qsxX08SlDU8QEA6yPJHCw/edit?usp=sharing) </br>
 :tropical_fish: [Our research notebook](https://docs.google.com/document/d/1KRSZ3onChbzWEPLJNWV2pxmtsUpAtw6nMLl2e3bgJoU/edit) </br>
-:tropical_fish: [Our community guidelines](https://docs.google.com/document/d/168vNyEpoMV_wvTNALC6-66nGEJ-Yu1TO3Q_SWoqM0hc/edit?usp=sharing)
-
+:tropical_fish: [Our community guidelines](https://docs.google.com/document/d/168vNyEpoMV_wvTNALC6-66nGEJ-Yu1TO3Q_SWoqM0hc/edit?usp=sharing) </br>
+:tropical_fish: [Opportunities](https://docs.google.com/document/d/1I8-32l1gcVd2iqx1rejib59a3EndpApobF61S8S-6-I/edit?usp=sharing)
 
 ## Schedule
 
@@ -42,8 +42,16 @@ Welcome to the Github repository of the Climate Coders, a BridgeUP STEM 2019-20 
 |January 7, 2020 (Tuesday)| Guest speaker| | |
 |January 9, 2020 (Thursday)| Guest speaker| | |
 |January 14, 2020 (Tuesday)| El Nino and La Nina|1. El Nino Southern Oscillation </br> 2. [Plot annual SST](./scripts) </br> 3. Exit ticket | |
-|January 16, 2020 (Thursday)| Long-term averages| | |
-|January 21, 2020 (Tuesday)| Presentation planning| | |
-|January 23, 2020 (Thursday)| Presentation planning| | |
-|January 30, 2020 (Tuesday)| Mid-term presentations| | |
+|January 16, 2020 (Thursday)|Long-term averages| 1. [Plot annual SST](./scripts) </br> 2. Averaging 3D data </br> 3. Exit ticket | Cheers and Challenges: Mia|
+|January 21, 2020 (Tuesday)| Presentation planning| 1. [Plan out presentation outline](./presentations.md) </br> 2. [Averaging 3D data](./200116_3D_mean) </br> 3. Exit ticket| |
+|January 23, 2020 (Thursday)| Presentation planning|1. [Finish presentation](./presentations.md) </br> 2. Exit ticket | |
+|January 28, 2020 (Tuesday)| Guest speaker| | |
+|January 30, 2020 (Thursday)| Mid-term presentations| | |
+|February 4, 2020 (Tuesday)| Salinity|1. Why is the ocean salty? </br> 2. Plot annual SST </br> 3. Exit ticket| |
+|February 6, 2020 (Thursday)|Complete El Nino project |1. Plot annual SST </br> 2. Hydrothermal vents (+ paleoclimate) </br> 3. Exit ticket | Cheers and challenges: Natalie|
+|February 11, 2020 (Tuesday)| Meet Ross!|1. Isotope analysis of corals </br> 2. Exit ticket | |
+|February 13, 2020 (Thursday)|Tour of South- East Asia Halls | |[Climate and the demise of Angkor](https://www.ldeo.columbia.edu/news-events/did-climate-influence-angkors-collapse)|
+|February 17, 2020 - February 21, 2020| :snowflake: Midwinter Recess :snowflake:| | | |
+|February 25, 2020 (Tuesday)| Guest speaker| | |
+|February 27, 2020 (Thursday)|Monsoons|1. Monsoons in Asia </br> 2. [Pandas review](./200227_pandas_review) </br> 3. Exit ticket |Cheers and challenges: Ling|
 
