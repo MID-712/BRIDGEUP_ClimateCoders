@@ -1,0 +1,6 @@
+|||
+| Date | Topic |
+|February 27, 2020 (Thursday)|Monsoons|
+|March 3, 2020 (Tuesday)|Pandas review| 
+|March 5, 2020 (Thursday)|Coral core data|
+|||
