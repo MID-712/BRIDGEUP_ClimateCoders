@@ -58,4 +58,4 @@ Welcome to the Github repository of the Climate Coders, a BridgeUP STEM 2019-20 
 |March 3, 2020 (Tuesday)|Pandas review| 1.[Pandas review](./200227_pandas_review) </br> 2. Exit ticket | |
 |March 5, 2020 (Thursday)|Coral core data|1. Accessing our coral core data </br> 2. [Pandas review](./200227_pandas_review) </br> 3. Exit ticket |Cheers and challenges: Ling|
 |March 10, 2020 (Tuesday)| Delimited text files|1. [Reading in .txt files](./200310_reading_txt_files) </br> 2. Exit ticket ||
-
+|March 12, 2020 (Thursday)| Sorting values and processing data|1. [Sorting data on Pandas](./200312_sorting_values) </br> 2. [Reading in .txt files](./200310_reading_txt_files) </br> 3. Exit ticket ||
