@@ -60,4 +60,8 @@ Welcome to the Github repository of the Climate Coders, a BridgeUP STEM 2019-20 
 |March 10, 2020 (Tuesday)| Delimited text files|1. [Reading in .txt files](./200310_reading_txt_files) </br> 2. Exit ticket ||
 |March 12, 2020 (Thursday)| Sorting values and processing data|1. [Sorting data on Pandas](./200312_sorting_values) </br> 2. [Reading in .txt files](./200310_reading_txt_files) </br> 3. Exit ticket ||
 |March 17, 2020 (Tuesday)|Linear regression|1.[Reading in .txt files](./200310_reading_txt_files) </br> 2. Linear regression </br> 3. Exit ticket ||
-|March 19, 2020 (Thursday)|Converting time format|1. Linear regression (continued) </br> 2.[Reading in .txt files](./200310_reading_txt_files) </br> 3. [Converting time format](./200319_convert_time_format) </br> 4. Exit ticket ||
+|March 19, 2020 (Thursday)|Converting time formats|1. Linear regression (continued) </br> 2.[Reading in .txt files](./200310_reading_txt_files) </br> 3. [Converting time format](./200319_convert_time_format) </br> 4. Exit ticket ||
+|March 24, 2020 (Tuesday)|Converting time formats| 1. [Converting time formats](./200319_convert_time_format) </br> 2. Exit ticket ||
+|March 26, 2020 (Thursday)|Converting time formats| 1. NumPy practice </br> 2. [Converting time formats](./200319_convert_time_format) </br> 3. Exit ticket ||
+|March 31, 2020 (Tuesday)|Introduction to machine learning| 1. What is machine learning and AI? </br> 2. [Converting time formats](./200319_convert_time_format) </br> 3. Exit ticket ||
+|April 02, 2020 (Thursday)|Machine learning on Python| 1. [Converting time formats](./200319_convert_time_format) </br> 2. [Linear regression on Python](./200402_machine_learning_python) </br> 3. Exit ticket ||
