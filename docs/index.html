@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Climate Coders Internship Project</title>
+    <link href='style.css' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+	<div class="container">
+
+		<!-- Header -->
+
+		<header>
+			<span class="logo">
+				<img src="logos/bridgeup_stem_logo_final.png">
+			</span>
+			<nav>
+				<ul>
+  					<li><a href="#Home">Home</a></li>
+  					<li><a href="#About">About</a></li>
+  					<!--<li><a href="#Data">Data</a></li>-->
+  					<li><a href="#Code">Data & Code</a></li>
+  					<li><a href="#Findings">Findings</a>
+  					<li><a href="#Conclusions">Conclusions</a></li>
+				</ul>
+			</nav>
+			<span class="logo">
+				<img src="logos/150Y_AMNH_logo_20.png">
+			</span>
+		</header>
+
+	<!--Banner-->
+  
+  		<div class="banner" id="Home">
+    		<h1>Investigating Climate Change in Southeast Asia using Coral Data</h1>
+    		<h2>Sabrina, Natalie, Darcie, Mia, Sherlyn</h2>
+  		</div>
+
+
+  	<!-- About -->
+
+		<div class="about" id="About">
+			<div>
+				<p class="quote">About</p>
+			</div>
+			<div style="flex-basis: 250rem">
+				<p class="description">The purpose of our project is to understand how climate change affects the ocean. To do this, we’ve studied corals. Corals provide vital information about the ocean as they are essentially records of decades worth of ocean data. Much like how the thickness of tree rings show how much water was available each year, the ratio of strontium to calcium (Sr/Ca) in coral layers can be used to calculate the temperature throughout the years. We’ve also applied the usage of Keeling Curves. Keeling curves show us the amount of carbon dioxide (CO2) measured in the Earth’s atmosphere from 1958 to present day. With information about ocean temperature from coral Sr/Ca and CO2 amounts, we compared this data for two locations - Vietnam and the Philippines. Our results indicate a relationship between CO2 and ocean temperature at our Philippines site but not our Vietnam one. Further investigation is required to better understand why there is this discrepancy between our sites even though they are relatively close-by. Please look through our findings below!
+				</p>
+			</div>
+		</div>
+
+	<!-- Data -->
+
+  		<div class="data" id="Data">
+			<div class="photo-container">
+				<div class="photo-frame">
+					<div class="photo">
+						<img src="images/mlo.png">
+					</div>
+      				<span class="photo-caption">This shows the full record of the Keeling Curve from 1960 -2020. The Keeling Curve shows the measurement of carbon dioxide in the Earth’s atmosphere.</span>
+      			</div>
+    		</div>
+
+			<div class="photo-container">
+				<div class="photo-frame">
+					<div class="photo">
+						<img src="images/El Nino vs La Nina.png">
+					</div>
+      				<span class="photo-caption">In addition to studying climate change, we can also understand how climate effects like the El Ni&#241o and La Ni&#241a have changed over time by analyzing ocean temperature.</span>
+      			</div>
+    		</div>
+
+    		<div class="photo-container">
+				<div class="photo-frame">
+					<div class="photo">
+						<img src="images/Linear Regression Ex.png">
+					</div>
+      				<span class="photo-caption">This is an example of a linear regression graph. The line is called the "line of best fit" because it helps one understand the trend of the data. We used the equation of the "line of best fit" to convert coral Sr/Ca to ocean temperature. </span>
+      			</div>
+    		</div>
+    	</div>
+
+	<!-- Code Examples -->
+
+		<div class="mycode" id="Code">
+
+			<div class="item-container">
+				<table>
+					<tr>
+						<td>
+							<div class="quote"><p>Data & Code</p></div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p class="description">
+
+								<br>
+								<u>Data</u>
+								</br>
+
+								<br>
+								 We used two datasets - one that is monthly Sr/Ca from coral cores collected by our lab group and the other is global carbon dioxide concentration in the atmosphere from the National Oceanic and Atmospheric Administration (NOAA). 
+								</br>
+
+								<br>
+								In order to find sea surface temperature (SST) from Sr/Ca ratios we used linear regression. The linear regression equation has the format Y= a + bX, where Y is the dependent variable, X is the independent variable, b is the slope of the line and a is the y-intercept. Using the linear regression equation, we were able to determine that ocean temperature and Sr/Ca ratio had a negative slope which means that as the temperature increases the Sr/Ca ratio drops. For our conversions, we used linear regression equations published by our lab (Ramos et al., 2019; Bolton et al., 2014). The equation for our Vietnam dataset is shown below:
+								</br>
+
+								<br>
+								Sr/Ca = 10.573 - 0.055 X SST (°C)
+								</br>
+
+								<br>
+								Here, 10.573 is a, - 0.055 is b, Sr/Ca is Y and SST (°C) is X. To find SST, we had to rewrite the equation in terms of Sr/Ca. We used our Sr/Ca data and subtracted it from 10.573. Then, we divided the difference with -0.055. 
+								</br>
+								
+								<br>
+								<u>Code</u>
+								</br>
+
+								<br>
+								First, we imported our Python libraries -  numpy, pandas, matplotlib.pyplot, and os. Next, we wrote down the path to our data files and used the function os.chdir() to navigate to them. Then, we read our data into a Pandas data frame and eliminated all the unnecessary columns. For our coral data, we converted the time column saved in the decimal time format to years and months. In order to reconstruct SST from coral Sr/Ca, we used the published linear regression equation for our site. Once we have our SST, we used a multindex to organize our dataframe. To compare to our carbon dioxide data, we also found the annual average of SST. Finally, we used the function matplotlib.pyplot.twinx() to create a graph that compares SST and CO2.
+								</br>
+
+							</p>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="item-container">
+				<img src="images/All Codes.png">
+			</div>
+		</div>
+
+		<!-- Findings -->
+
+		<div class="findings" id="Findings">
+			<div style="width: 100rem">
+				<p class="quote">Findings</p>
+			</div>
+			<div class="collage">
+				<div class="item graph">
+					<img src="images/CompareGraph.png">
+				</div>
+				<div class="item explanation">
+					<p class="text">
+						This graph shows the amount of CO2 and the sea surface temperature (SST) over a 30 year period in Palaui, Philippines. Sea surface temperature is reconstructed from coral Sr/Ca. Here, the amount of carbon dioxide increased at a steady rate, not having any spikes or drops in amount. The sea surface temperature, conversely, is not consistent at all and oscillates frequently.  However, what can be seen is that despite the SST and CO2’s large disparity, both have increased over the 30 year time period, albeit CO2 increased much more clearly than the SST.
+ 
+					</p>
+				</div>
+				<div class="item code">
+					<img src="images/findings1_code.png">
+				</div>
+				<div class="item pic-one">
+					<img src="images/PalauiPic.png">
+				</div>
+				<div class="item pic-two">
+					<img src="images/CloseUp.jpg">
+				</div>
+			</div>
+			<div class="collage">
+				<div class="item graph">
+					<img src="images/Hon Tre SST vs Yearly CO2 Average.png">
+				</div>
+				<div class="item explanation">
+					<p class="text">
+						 The Keeling curve is plotted with sea surface temperature (SST) reconstructed using coral core data from Hon Tre, Vietnam. SST increases and decreases many times over the 30 year period and does not have an overall trend. There is no visible relation between the SST and CO2 amounts, so it can be concluded that SST and CO2 have little to no relation to each other.
+					</p>
+				</div>
+				<div class="item code">
+					<img src="images/findings1_code.png">
+				</div> 
+				<div class="item pic-one">
+					<img src="images/HonTreCoral.png">
+				</div>
+				<div class="item pic-two">
+					<img src="images/Enlarged.jpg">
+				</div>
+			</div>
+		</div>
+
+		<!-- Conclusions -->
+
+		<div class="conclusion" id="Conclusions">
+			<div>
+				<p class="quote">Conclusions</p>
+			</div>
+			<div style="flex-basis: 250rem">
+				<p class="description">
+					<br>
+					We can get decades worth of sea surface temperature data from coral cores. Much like tree rings, coral layers can be used to assess the temperature of the ocean over the years. However, climate change is acidifying the ocean. If the ocean goes below a certain pH, corals will start to be bleached and will die. This is important as corals are living records of decades worth of climate data, and if climate change kills them, decades of data is lost as well.
+				</br>
+
+				<br>
+					We used coral data (Sr/Ca ratios) to determine the ocean temperature at sites in the Philippines and Vietnam. Then we compared the ocean temperature data over time (1980-2010) to the CO2 levels over time (1980-2010) to see if there is a relation between rising CO2 levels (which is an indication of climate change) and ocean temperature. Globally, we see a rise in ocean temperature due to climate change. At the Philippines site, our data shows that the ocean temperature data oscillates and does not rise as steadily as the CO2 levels. However, with the Vietnam data there is not a clear indication of sea surface temperature rising. Our sites are producing different results therefore, further research is needed to understand why the Vietnam ocean temperatures are not showing a warming trend.
+					</br>
+
+					<br>
+					Since we began working remotely, we had to adjust our project accordingly. We used published linear regression equation (Ramos et al., 2019; Bolton et al., 2014) in order to convert the coral data into ocean temperature data. It was also difficult to read in multiple file types for our code and virtually learn how to work with new library functions. As a group we struggled with the adjustments, but pulled through to complete our work and produce a website that we hope is very informative.
+					</br>
+				</p>
+			</div>
+		</div>
+
+		<!-- References -->
+
+		<div class="reference" id="">
+			<div>
+				<p class="quote">References</p>
+			</div>
+			<div style="flex-basis: 250rem">
+				<p class="description">
+					<br>
+					Bolton, A., N.F. Goodkin, K. Hughen, D.R. Ostermann, S.T. Vo, H.K. Phan. 2014. Paired Porites coral Sr/Ca and d18O from the western South China Sea: proxy calibration of sea surface temperature and precipitation. Palaeogeography, Palaeoclimatology, Palaeoecology, 410, 233-243. doi: 10.1016/j.palaeo.2014.05.047
+				</br>
+
+				<br>
+					Ramos, R.D., N.F. Goodkin, F.P. Siringan, and K.A. Hughen. 2019. Coral records of temperature and salinity in the tropical western Pacific reveal  influence of the Pacific Decadal Oscillation since the late 19th century. Paleoceanography and Paleoclimatology. doi: 10.1029/2019PA003684
+					</br>
+
+				</p>
+			</div>
+		</div>
+
+		<footer>
+			<p>️&copy; ClimateCoders 2020</p>
+		</footer>
+</div>
+</body>
+</html>
+
+
+
